@@ -1,0 +1,42 @@
+supercollider workshop
+======================
+
+s -> local server
+~ prefix for global vars
+
+ar - generate sound (audio rate)
+kr - control parameter (kontrol rate)
+ 
+any param can be controlled by a ugen or audio or anything else
+
+
+.dup to duplicate (stereo)
+!<number> to duplicate many times (e.g. !3)
+
+
+defs - put thing in key in global dictionary
+
+\harc === 'harc' <-- symbols
+
+
+Out.ar(channel, signal)
+
+
+number.do {} -> do n times
+
+collect: map
+select: filter
+
+reject
+
+(0..10) (range/interval)
+
+
+
+// ---------------------------
+
+envelopes
+
+doneAction - what to do once env is done
+
+Tartini - machine listening 
